@@ -1,0 +1,25 @@
+# .gitignore
+
+# Ignore the real configuration file
+.env
+
+# Ignore all Python compiled files
+*.pyc
+*.pyo
+
+# Ignore all cache files
+__pycache__/
+*.egg-info/
+build/
+.pytest_cache/
+
+# Ignore sensitive data
+keys/*
+
+# Ignore any other system-specific, editor-specific or other generated files
+*.swp
+.DS_Store
+.vscode/
+.idea/
+main.spec
+dist/
